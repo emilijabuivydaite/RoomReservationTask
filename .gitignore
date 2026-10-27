@@ -1,0 +1,19 @@
+# React
+RoomBooking.React/node_modules/
+RoomBooking.React/dist/
+RoomBooking.React/build/
+RoomBooking.React/.env
+RoomBooking.React/.env.*
+!RoomBooking.React/.env.example
+
+# ASP.NET
+RoomBooking.Api/bin/
+RoomBooking.Api/obj/
+RoomBooking.Api/.vs/
+
+# IDE and OS
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

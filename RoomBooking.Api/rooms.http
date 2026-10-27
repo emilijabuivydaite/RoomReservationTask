@@ -1,0 +1,31 @@
+GET http://localhost:5298/rooms
+
+###!SECTION
+GET http://localhost:5298/rooms/4
+
+###!SECTION
+POST http://localhost:5298/rooms
+Content-Type: application/json
+
+{
+    "name": "R4",
+    "capacity": 100,
+    "floor": 10,
+    "equipment": 1,
+    "isactive": true
+}
+
+###!SECTION
+PUT http://localhost:5298/rooms/1
+Content-Type: application/json
+
+{
+    "name": "R0",
+    "capacity": 0,
+    "floor": 0,
+    "equipment": 3,
+    "isactive": false
+}
+
+###!SECTION
+DELETE http://localhost:5298/rooms/1
