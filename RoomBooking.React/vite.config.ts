@@ -8,9 +8,8 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: 'http://localhost:5298',
-        rewrite: (path) => path.replace(/^\/api/, ''),
         changeOrigin: true,
-        secure: false,
+        rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
   },
